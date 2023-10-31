@@ -1,20 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Irish+Grover'); 
-h1{ font-family: 'Irish Grover', sans-serif; text-align: center; }
+h1{ font-family: 'Irish Grover', sans-serif; text-align: center;
+color: black; }
 
 .cabecalho{
     display:flex ;
+    text-align: center;
 }
 .titulo{
     background: #705692;
 }
 .conteudo{
     text-align: center;
-    padding-inline: 10%;
     font-size: x-large ;
     color: #BA35BD;
     font-family: 'Irish Grover', sans-serif;
+    padding-inline: 20%;
+    padding-bottom: 2%;
 }
 .simbolo{
     text-align: center;
     padding: 30%;
 }
+.cabecalho h1{
+    text-align:center;
+}
+.conteudo-azul{
+    text-align: center;
+    padding-inline: 10%;
+    font-size: x-large ;
+    color: #501CE5;
+    font-family: 'Irish Grover', sans-serif;
+    padding-inline: 20%;
+    padding-bottom: 2%;
+}
+.preto{
+    color: black;
+}
+.rodape{
+    background: #705692;
+    text-align: center;
+    color: white;
+}
+.icon{
+    display: flex;
+    padding-top: 3%;
+ }
+ 
+ .icon-Rosa{
+     padding-left: 350px;
+ }
+ 
+ .icon-Azul{
+     padding-left: 800px;
+ }
